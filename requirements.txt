@@ -1,0 +1,16 @@
+transformers==4.40.1          # GPT-Neo-based Worker module (story generation)
+sentence-transformers==2.2.2  # Semantic similarity (subgoal relevance, coherence checks)
+sentencepiece>=0.1.99         # Tokenizer support for transformer models like GPT-Neo
+datasets==2.18.0              # Loading WritingPrompts dataset (from Hugging Face)
+sumy==0.11.0                  # TextRank-based extractive summarization for subgoal extraction
+spacy==3.7.4                  # NLP tasks: tokenization, named entity recognition
+nltk==3.8.1                   # Preprocessing, sentence splitting (e.g., `punkt`)
+rouge-score==0.1.2            # Evaluation metric for story segment relevance
+torch==2.1.0                  # Core deep learning framework used by GPT-Neo, LSTM Manager
+scikit-learn==1.4.2           # Utility tools (e.g., cosine similarity, clustering, preprocessing)
+tqdm==4.66.4                  # Progress bars for training loops
+numpy==1.26.4                 # Numerical operations (vector similarity, embeddings)
+pandas==2.2.2                 # Data handling and preprocessing
+matplotlib==3.8.4             # Plotting evaluation graphs or diagnostics
+seaborn==0.13.2               # Statistical data visualization (e.g., coherence scores)
+requests==2.31.0              # For downloading embeddings, models, or API calls if needed
