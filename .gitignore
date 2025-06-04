@@ -1,0 +1,11 @@
+# Ignore large folders
+writingPrompts/
+glove.6B/
+
+# Ignore temporary files
+.ipynb_checkpoints/
+*.zip
+*.tar.gz
+.DS_Store
+Thumbs.db
+-e "writingPrompts/\nglove.6B/" 
