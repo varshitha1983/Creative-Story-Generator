@@ -1,4 +1,4 @@
-# Creative-Story-Generator# Adaptive Story Generation using Hierarchical Reinforcement Learning
+# Adaptive Story Generation using Hierarchical Reinforcement Learning
 
 ##  Overview
 
